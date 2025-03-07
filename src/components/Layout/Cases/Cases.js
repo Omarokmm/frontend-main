@@ -191,7 +191,7 @@ const Cases = () => {
         console.log(delayCasesfilter);
         setDelayCases(delayCasesfilter);
         setBuffDelayCases(delayCasesfilter);
-        // get clinics
+        // get all clinics 
         axios
           .get(`${_global.BASE_URL}clinics`)
           .then((res) => {
